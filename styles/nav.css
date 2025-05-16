@@ -1,0 +1,35 @@
+/* header {
+  background: linear-gradient(to bottom right, #003366, #0077b6, #00c2f5);
+  color: white;
+  padding: 2vw;
+} */
+
+header {
+  color: #1c56aa;
+  padding: 2vw;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 15vh;
+  object-fit: contain;
+  display: block;
+  background: #f4f4f4;
+  border-radius: 6px;
+}
+
+
+.nav-links a {
+  color: #1c56aa;
+  margin: 0 0.75rem;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
