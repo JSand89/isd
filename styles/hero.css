@@ -76,6 +76,25 @@
   transform: scale(1);
   opacity: 1;
 }
+/* Opcional: hero con imagen usando tus márgenes/paleta */
+.hero-bk1 {
+  background: url('../assets/bk1-hero.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 4rem 0;
+  border-radius: 8px;
+  position: relative;
+}
+.hero-bk1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  border-radius: 8px;
+}
+.hero-bk1 .container {
+  position: relative;
+  z-index: 1;
+}
 
 @media (max-width: 768px) {
   .hero-image {
